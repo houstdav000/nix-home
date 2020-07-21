@@ -13,6 +13,7 @@
     ./shells/fish.nix
     ./shells/starship.nix
     ./utils/bat.nix
+    ./utils/git.nix
     ./utils/gpg.nix
   ];
 
@@ -53,7 +54,6 @@
     slack
 
     # Dev-Tools
-    git
     vscode
     mosh
 
