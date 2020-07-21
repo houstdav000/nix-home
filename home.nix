@@ -9,6 +9,7 @@
   nixpkgs.config.allowUnfree = true;
 
   imports = [
+    ./editors/neovim.nix
     ./utils/gpg.nix
     ./utils/bat.nix
   ];
@@ -34,6 +35,7 @@
     netcat
     nmap
     whois
+    bind # for dig
 
     # Desktop
     firefox
@@ -51,8 +53,6 @@
 
     # Dev-Tools
     git
-    vim
-    neovim
     vscode
     mosh
 
@@ -92,8 +92,8 @@
   ];
 
   home.sessionVariables = {
-    EDITOR = "vim";
-    VISUAL = "vim";
+    EDITOR = "nvim";
+    VISUAL = "nvim";
     TERM = "alacritty";
   };
 }
