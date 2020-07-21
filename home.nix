@@ -10,8 +10,10 @@
 
   imports = [
     ./editors/neovim.nix
-    ./utils/gpg.nix
+    ./shells/fish.nix
+    ./shells/starship.nix
     ./utils/bat.nix
+    ./utils/gpg.nix
   ];
 
   # Enable home-manager
@@ -22,7 +24,6 @@
     # Base
     tmux
     htop
-    starship
     exa
     hexyl
     file
