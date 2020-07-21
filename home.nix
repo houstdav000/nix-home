@@ -6,6 +6,8 @@
 
 { config, pkgs, ... }: {
 
+  nixpkgs.config.allowUnfree = true;
+
   imports = [
     ./utils/gpg.nix
     ./utils/bat.nix
@@ -51,7 +53,7 @@
     # Dev-Tools
     git
     vim
-    nvim
+    neovim
     vscode
     mosh
 
@@ -87,7 +89,6 @@
     fira-mono
     nodejs
     pandoc
-    texlive.combined.scheme-full
     jq
   ];
 
