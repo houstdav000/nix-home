@@ -10,6 +10,7 @@
 
   imports = [
     ./editors/neovim.nix
+    ./editors/vscodium.nix
     ./shells/fish.nix
     ./shells/starship.nix
     ./utils/bat.nix
@@ -31,6 +32,7 @@
     neofetch
     libtool
     sshfs
+    mosh
 
     # Hacking
     exiftool
@@ -52,10 +54,6 @@
     riot-desktop
     teams
     slack
-
-    # Dev-Tools
-    vscode
-    mosh
 
     # Gaming
     minecraft
