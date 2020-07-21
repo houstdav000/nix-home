@@ -21,7 +21,6 @@
     # Base
     tmux
     htop
-    fish
     starship
     exa
     hexyl
