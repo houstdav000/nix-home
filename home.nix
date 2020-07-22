@@ -19,6 +19,7 @@
     ./utils/gpg.nix
     ./utils/htop.nix
     ./utils/neofetch.nix
+    ./utils/ssh.nix
     ./terminals/alacritty.nix
   ];
 
