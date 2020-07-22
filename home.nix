@@ -9,6 +9,7 @@
   nixpkgs.config.allowUnfree = true;
 
   imports = [
+    ./editors/editorconfig.nix
     ./editors/neovim.nix
     ./editors/vscodium.nix
     ./shells/fish.nix
