@@ -16,6 +16,7 @@
     ./utils/bat.nix
     ./utils/git.nix
     ./utils/gpg.nix
+    ./terminals/alacritty.nix
   ];
 
   # Enable home-manager

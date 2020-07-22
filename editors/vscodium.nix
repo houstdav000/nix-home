@@ -5,17 +5,21 @@
 { config, pkgs, lib, ... }: {
   programs.vscode = {
     enable = true;
-    package = "pkgs.vscodium";
+    package = pkgs.vscodium;
     extensions = with pkgs.vscode-extensions; [
       bbenoist.Nix
-      bmalehorn.vscode-fish
-      dbaeumer.vscode-eslint
-      editorconfig.editorconfig
-      golang.go
-      llvm-vs-code-extensions.vscode-clangd
+      cmschuetz12.wal
+      formulahendry.auto-close-tag
+      james-yu.latex-workshop
+      justusadam.language-haskell
+      ms-vscode.cpptools
+      ms-vscode-remote.remote-ssh
       ms-python.python
-      rust-lang.rust
-      vscode-icons-team.vscode-icons
+      redhat.vscode-yaml
+      scala-lang.scala
+      scalameta.metals
+      skyapps.fish-vscode
+      llvm-org.lldb-vscode
     ];
   };
 

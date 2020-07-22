@@ -7,5 +7,5 @@
     starship
   ];
 
-  xdg.configFile."starship.toml".source = ../dotfiles/.config/starship.toml
+  xdg.configFile."starship.toml".source = ../dotfiles/.config/starship.toml;
 }
