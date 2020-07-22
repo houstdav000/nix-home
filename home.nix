@@ -16,6 +16,7 @@
     ./utils/bat.nix
     ./utils/git.nix
     ./utils/gpg.nix
+    ./utils/htop.nix
     ./terminals/alacritty.nix
   ];
 
@@ -26,7 +27,6 @@
   home.packages = with pkgs; [
     # Base
     tmux
-    htop
     exa
     hexyl
     file
