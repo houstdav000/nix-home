@@ -18,6 +18,7 @@
     ./utils/git.nix
     ./utils/gpg.nix
     ./utils/htop.nix
+    ./utils/neofetch.nix
     ./terminals/alacritty.nix
   ];
 
@@ -31,7 +32,6 @@
     exa
     hexyl
     file
-    neofetch
     libtool
     sshfs
     mosh
