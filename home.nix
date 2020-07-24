@@ -29,68 +29,93 @@
   # Personal Packages
   home.packages = with pkgs; [
     # Base
-    tmux
     exa
-    hexyl
     file
+    hexyl
     libtool
-    sshfs
     mosh
+    sshfs
+    tmux
 
     # Hacking
+    bind # for dig
     exiftool
     netcat
     nmap
     whois
-    bind # for dig
 
     # Desktop
+    chromium
     firefox
+    ksnip
+    libreoffice
+    protonmail-bridge
+    qpdfview
     thunderbird
-    alacritty
     virt-manager
     virt-viewer
-    protonmail-bridge
+    xournalpp
+    zathura
+
+    # Music
+    mpd
+    ncmpcpp
+
+    # Video
+    vlc
+    openshot-qt
 
     # Chat
     discord
     riot-desktop
-    teams
     slack
+    teams
 
     # Gaming
     minecraft
+    protontricks
     steam
     wine
     winetricks
-    protontricks
 
-    # Code-dev
-    rustc
+    # Development
+    cabal-install
     cargo
+    clang
     clippy
+    cmake
+    crystal
+    ghc
+    gnumake
+    go
+    gosec
+    jdk
+    jq
+    jre
     llvm
     lld
     lldb
-    clang
-    python3
-    cmake
-    gnumake
-    crystal
-    ghc
-    cabal-install
-    jre
-    jdk
     mono
-    go
-    gosec
+    nodejs
+    pandoc
+    python3
+    racket
+    rustc
+
+    # Audio Editing
+    audacity
+    lmms
+
+    # Drawing
+    gimp
+    inkscape
+    krita
+
+    # Fonts
     fira
     fira-code
     fira-code-symbols
     fira-mono
-    nodejs
-    pandoc
-    jq
   ];
 
   home.sessionVariables = {
