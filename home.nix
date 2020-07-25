@@ -12,6 +12,8 @@
     ./editors/editorconfig.nix
     ./editors/neovim.nix
     ./editors/vscodium.nix
+    ./languages/python.nix
+    ./languages/rust.nix
     ./shells/fish.nix
     ./shells/starship.nix
     ./utils/bat.nix
@@ -29,27 +31,40 @@
   # Personal Packages
   home.packages = with pkgs; [
     # Base
+    aria2
     exa
     file
     hexyl
     libtool
     mosh
+    p7zip
+    powershell
     sshfs
     tmux
 
     # Hacking
     bind # for dig
+    burpsuite
     exiftool
+    foremost
+    ghidra-bin
     netcat
     nmap
+    python38Packages.binwalk-full
+    radare2
     whois
+    wireshark
+    wireshark-cli
 
     # Desktop
     chromium
     firefox
+    freerdp
     ksnip
     libreoffice
+    okular
     protonmail-bridge
+    remmina
     qpdfview
     thunderbird
     virt-manager
@@ -58,16 +73,20 @@
     zathura
 
     # Music
+    elisa
     mpd
     ncmpcpp
+    rhythmbox
 
     # Video
     vlc
     openshot-qt
+    obs-studio
 
     # Chat
     discord
     riot-desktop
+    signal-desktop
     slack
     teams
 
@@ -80,9 +99,7 @@
 
     # Development
     cabal-install
-    cargo
     clang
-    clippy
     cmake
     crystal
     ghc
@@ -98,9 +115,10 @@
     mono
     nodejs
     pandoc
-    python3
+    r
     racket
-    rustc
+    texlive.combined.scheme-basic
+    tikzit
 
     # Audio Editing
     audacity
