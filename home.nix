@@ -38,7 +38,6 @@
     libtool
     mosh
     p7zip
-    powershell
     sshfs
     tmux
 
@@ -54,13 +53,11 @@
     radare2
     whois
     wireshark
-    wireshark-cli
 
     # Desktop
     chromium
     firefox
     freerdp
-    ksnip
     libreoffice
     okular
     protonmail-bridge
