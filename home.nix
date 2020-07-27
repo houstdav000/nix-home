@@ -112,7 +112,6 @@
     mono
     nodejs
     pandoc
-    r
     racket
     texlive.combined.scheme-basic
     tikzit
