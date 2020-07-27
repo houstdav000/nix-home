@@ -16,7 +16,7 @@
     python38Packages.pandocfilters
     python38Packages.pip
     python38Packages.pip-tools
-    python38Packages.pwntools
+    #python38Packages.pwntools
     python38Packages.pycrypto
     python38Packages.pycryptodome
     python38Packages.pylint
