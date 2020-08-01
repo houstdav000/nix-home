@@ -3,12 +3,8 @@
 # Install git and config files for it
 
 { config, pkgs, lib, ... }: {
-  home.packages = with pkgs; [
+  home.packages = with pkgs.gitAndTools; [
     git
-    git-lfs
-  ];
-
-  home.pkgs = with pkgs.gitAndTools; [
     gh
     gitflow
   ];
