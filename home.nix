@@ -104,6 +104,7 @@
     go
     gosec
     jdk
+    jekyll
     jq
     jre
     llvm
