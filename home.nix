@@ -81,7 +81,7 @@
     obs-studio
 
     # Chat
-    riot-desktop
+    element-desktop
     ripcord
     signal-desktop
     slack
