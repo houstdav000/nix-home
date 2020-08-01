@@ -22,6 +22,7 @@
     ./utils/htop.nix
     ./utils/neofetch.nix
     ./utils/ssh.nix
+    ./utils/tmux.nix
     ./terminals/alacritty.nix
   ];
 
@@ -39,7 +40,6 @@
     mosh
     p7zip
     sshfs
-    tmux
 
     # Hacking
     bind # for dig
