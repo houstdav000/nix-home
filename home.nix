@@ -49,6 +49,7 @@
     ghidra-bin
     netcat
     nmap
+    openssl
     python38Packages.binwalk-full
     radare2
     whois
@@ -59,10 +60,12 @@
     firefox
     freerdp
     libreoffice
+    nerdfonts
     okular
     protonmail-bridge
     remmina
     qpdfview
+    shutter
     thunderbird
     virt-manager
     virt-viewer
