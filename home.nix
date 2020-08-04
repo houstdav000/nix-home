@@ -12,8 +12,15 @@
     ./editors/editorconfig.nix
     ./editors/neovim.nix
     ./editors/vscodium.nix
+    ./languages/cpp.nix
+    #./languages/csharp.nix
+    ./languages/go.nix
+    ./languages/haskell.nix
+    #./languages/java.nix
     ./languages/python.nix
+    ./languages/scheme.nix
     ./languages/rust.nix
+    #./shells/bash.nix
     ./shells/fish.nix
     ./shells/starship.nix
     ./utils/bat.nix
@@ -59,8 +66,8 @@
     chromium
     firefox
     freerdp
+    jre
     libreoffice
-    nerdfonts
     okular
     protonmail-bridge
     remmina
@@ -98,25 +105,12 @@
     winetricks
 
     # Development
-    cabal-install
-    clang
-    cmake
     crystal
-    ghc
     gnumake
-    go
-    gosec
-    jdk
     jekyll
     jq
-    jre
-    llvm
-    lld
-    lldb
-    mono
     nodejs
     pandoc
-    racket
     texlive.combined.scheme-basic
     tikzit
 
@@ -130,10 +124,16 @@
     krita
 
     # Fonts
+    cascadia-code
+    dejavu_fonts
     fira
     fira-code
     fira-code-symbols
     fira-mono
+    hack-font
+    hasklig
+    nerdfonts
+    vistafonts
   ];
 
   home.sessionVariables = {
