@@ -49,6 +49,7 @@
     sshfs
 
     # Hacking
+    aircrack-ng
     bind # for dig
     burpsuite
     exiftool
@@ -78,6 +79,7 @@
     virt-viewer
     xournalpp
     zathura
+    zoom-us
 
     # Music
     elisa
@@ -91,8 +93,8 @@
     obs-studio
 
     # Chat
+    discord
     element-desktop
-    ripcord
     signal-desktop
     slack
     teams
@@ -105,18 +107,23 @@
     winetricks
 
     # Development
+    ansible
     crystal
     gnumake
+    hugo
     jekyll
     jq
     nodejs
     pandoc
-    texlive.combined.scheme-basic
+    tectonic
     tikzit
 
     # Audio Editing
     audacity
     lmms
+
+    # Video Editing
+    openshot-qt
 
     # Drawing
     gimp
