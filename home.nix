@@ -11,7 +11,6 @@
   imports = [
     ./editors/editorconfig.nix
     ./editors/neovim.nix
-    ./editors/vscodium.nix
     ./languages/cpp.nix
     #./languages/csharp.nix
     ./languages/go.nix
@@ -30,7 +29,9 @@
     ./utils/neofetch.nix
     ./utils/ssh.nix
     ./utils/tmux.nix
-    ./terminals/alacritty.nix
+
+    # Desktop Utilities
+    #./desktop/desktop.nix
   ];
 
   # Enable home-manager
@@ -51,62 +52,20 @@
     # Hacking
     aircrack-ng
     bind # for dig
-    burpsuite
     exiftool
     foremost
-    ghidra-bin
     netcat
     nmap
     openssl
     python38Packages.binwalk-full
     radare2
     whois
-    wireshark
-
-    # Desktop
-    chromium
-    firefox
-    freerdp
-    jre
-    libreoffice
-    okular
-    protonmail-bridge
-    remmina
-    qpdfview
-    shutter
-    thunderbird
-    virt-manager
-    virt-viewer
-    xournalpp
-    zathura
-    zoom-us
 
     # Music
-    elisa
-    mpd
-    ncmpcpp
-    rhythmbox
+    #mpd
+    #ncmpcpp
 
-    # Video
-    vlc
-    openshot-qt
-    obs-studio
-
-    # Chat
-    discord
-    element-desktop
-    signal-desktop
-    slack
-    teams
-
-    # Gaming
-    minecraft
-    protontricks
-    steam
-    wine
-    winetricks
-
-    # Development
+    ## Development
     ansible
     crystal
     gnumake
@@ -117,35 +76,11 @@
     pandoc
     tectonic
     tikzit
-
-    # Audio Editing
-    audacity
-    lmms
-
-    # Video Editing
-    openshot-qt
-
-    # Drawing
-    gimp
-    inkscape
-    krita
-
-    # Fonts
-    cascadia-code
-    dejavu_fonts
-    fira
-    fira-code
-    fira-code-symbols
-    fira-mono
-    hack-font
-    hasklig
-    nerdfonts
-    vistafonts
   ];
 
   home.sessionVariables = {
     EDITOR = "nvim";
     VISUAL = "nvim";
-    TERM = "alacritty";
+    #TERM = "alacritty";
   };
 }
