@@ -48,6 +48,7 @@
     mosh
     p7zip
     sshfs
+    qemu
 
     # Hacking
     aircrack-ng
@@ -67,7 +68,9 @@
 
     ## Development
     ansible
+    bison
     crystal
+    flex
     gnumake
     hugo
     jekyll
