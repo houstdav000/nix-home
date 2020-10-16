@@ -19,7 +19,7 @@
     ./languages/python.nix
     ./languages/scheme.nix
     ./languages/rust.nix
-    #./shells/bash.nix
+    ./shells/bash.nix
     ./shells/fish.nix
     ./shells/starship.nix
     ./utils/bat.nix
@@ -66,7 +66,7 @@
     #mpd
     #ncmpcpp
 
-    ## Development
+    # Development
     ansible
     bison
     crystal
@@ -80,10 +80,4 @@
     tectonic
     tikzit
   ];
-
-  home.sessionVariables = {
-    EDITOR = "nvim";
-    VISUAL = "nvim";
-    #TERM = "alacritty";
-  };
 }
