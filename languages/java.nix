@@ -6,6 +6,6 @@
   home.packages = with pkgs; [
     jdk
     jdk8
-    junit
+    #junit # Broken package
   ];
 }

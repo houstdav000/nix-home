@@ -16,6 +16,7 @@
     ./languages/go.nix
     ./languages/haskell.nix
     #./languages/java.nix
+    ./languages/javascript.nix
     ./languages/python.nix
     ./languages/scheme.nix
     ./languages/rust.nix
@@ -68,6 +69,7 @@
 
     # Development
     ansible
+    binutils
     bison
     crystal
     flex
@@ -75,7 +77,7 @@
     hugo
     jekyll
     jq
-    nodejs
+    nixfmt
     pandoc
     tectonic
     tikzit
