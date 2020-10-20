@@ -49,6 +49,7 @@
     mosh
     p7zip
     sshfs
+    traceroute
     qemu
 
     # Hacking
@@ -79,6 +80,7 @@
     jq
     nixfmt
     pandoc
+    sonic-pi
     tectonic
     tikzit
   ];
