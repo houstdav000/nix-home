@@ -43,14 +43,18 @@
     # Base
     aria2
     exa
+    fd
     file
     hexyl
+    hyperfine
     libtool
     mosh
     p7zip
+    ripgrep-all
     sshfs
     traceroute
     qemu
+    xsv
 
     # Hacking
     aircrack-ng
@@ -82,6 +86,7 @@
     pandoc
     sonic-pi
     tectonic
+    texlive.combined.scheme-full
     tikzit
   ];
 }
