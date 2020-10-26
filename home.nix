@@ -82,6 +82,7 @@
     ansible
     binutils
     bison
+    cloc
     crystal
     flex
     gnumake
