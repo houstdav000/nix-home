@@ -96,5 +96,10 @@
     tectonic
     texlive.combined.scheme-full
     tikzit
+
+    # Cloud
+    aws
+    azure-cli
+    linode-cli
   ];
 }
