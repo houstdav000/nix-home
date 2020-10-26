@@ -49,7 +49,7 @@
     hyperfine
     libtool
     p7zip
-    ripgrep-all
+    ripgrep
     sshfs
     traceroute
     qemu
