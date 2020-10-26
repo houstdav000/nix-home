@@ -15,7 +15,7 @@
     #./languages/csharp.nix
     ./languages/go.nix
     ./languages/haskell.nix
-    #./languages/java.nix
+    ./languages/java.nix
     ./languages/javascript.nix
     ./languages/python.nix
     ./languages/scheme.nix

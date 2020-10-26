@@ -5,7 +5,8 @@
 { config, pkgs, lib, ... }: {
   home.packages = with pkgs; [
     jdk
-    jdk8
+    jre
+    #jdk8
     #junit # Broken package
   ];
 }
