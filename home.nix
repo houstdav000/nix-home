@@ -48,13 +48,19 @@
     hexyl
     hyperfine
     libtool
-    mosh
     p7zip
     ripgrep-all
     sshfs
     traceroute
     qemu
     xsv
+
+    # Extra Shells
+    elvish
+    mosh
+    powershell
+    xonsh
+    zsh
 
     # Hacking
     aircrack-ng
