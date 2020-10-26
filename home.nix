@@ -85,6 +85,7 @@
     cloc
     crystal
     flex
+    github-cli
     gnumake
     hugo
     jekyll
