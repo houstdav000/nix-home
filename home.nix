@@ -71,6 +71,8 @@
     nmap
     openssl
     python38Packages.binwalk-full
+    pwndbg
+    pwntools
     radare2
     whois
 
