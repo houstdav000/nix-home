@@ -11,15 +11,6 @@
   imports = [
     ./editors/editorconfig.nix
     ./editors/neovim.nix
-    ./languages/cpp.nix
-    #./languages/csharp.nix
-    ./languages/go.nix
-    ./languages/haskell.nix
-    ./languages/java.nix
-    ./languages/javascript.nix
-    ./languages/python.nix
-    ./languages/scheme.nix
-    ./languages/rust.nix
     ./shells/bash.nix
     ./shells/fish.nix
     ./shells/starship.nix
@@ -55,6 +46,12 @@
     qemu
     xsv
 
+    # Email
+    neomutt
+
+    # Web
+    w3m
+
     # Extra Shells
     elvish
     mosh
@@ -82,22 +79,9 @@
 
     # Development
     ansible
-    binutils
-    bison
     cloc
-    crystal
-    flex
     github-cli
-    gnumake
-    hugo
-    jekyll
-    jq
     nixfmt
-    pandoc
-    sonic-pi
-    tectonic
-    texlive.combined.scheme-full
-    tikzit
 
     # Cloud
     aws

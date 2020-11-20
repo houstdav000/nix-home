@@ -9,6 +9,7 @@
     # Hacking
     burpsuite
     ghidra-bin
+    radare2-cutter
     wireshark
 
     # Browsers
