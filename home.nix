@@ -82,10 +82,5 @@
     cloc
     github-cli
     nixfmt
-
-    # Cloud
-    aws
-    azure-cli
-    linode-cli
   ];
 }
