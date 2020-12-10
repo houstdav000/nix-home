@@ -29,6 +29,9 @@
   # Enable home-manager
   programs.home-manager.enable = true;
 
+  home.username = "david";
+  home.homeDirectory = "/home/david";
+
   # Personal Packages
   home.packages = with pkgs; [
     # Base
@@ -47,15 +50,15 @@
     xsv
 
     # Email
-    neomutt
+    #neomutt
 
     # Web
-    w3m
+    #w3m
 
     # Extra Shells
     elvish
     mosh
-    powershell
+    #powershell
     xonsh
     zsh
 
@@ -68,8 +71,8 @@
     nmap
     openssl
     python38Packages.binwalk-full
-    pwndbg
-    pwntools
+    #pwndbg
+    #pwntools
     radare2
     whois
 
