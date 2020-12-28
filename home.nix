@@ -15,6 +15,7 @@
     ./shells/fish.nix
     ./shells/starship.nix
     ./utils/bat.nix
+    ./utils/direnv.nix
     ./utils/git.nix
     ./utils/gpg.nix
     ./utils/htop.nix
