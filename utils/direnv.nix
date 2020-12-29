@@ -1,6 +1,7 @@
 { pkgs, config, ... }: {
   # Install direnv
   home.packages = with pkgs; [
+    direnv
     nix-direnv
   ];
 
