@@ -25,7 +25,7 @@
     ./utils/tmux.nix
 
     # Desktop Utilities
-    #./desktop/desktop.nix
+    ./desktop/desktop.nix
   ];
 
   # Enable home-manager
@@ -37,25 +37,45 @@
   # Personal Packages
   home.packages = with pkgs; [
     # Base
-    aria2
     exa
-    fd
-    file
     hexyl
-    hyperfine
     libtool
-    p7zip
-    ripgrep
+    openssl
     sshfs
+
+    # File tools
+    file
+    ranger
+
+    # File Compression
+    bzip2
+    gzip
+    p7zip
+    unzip
+    zip
+
+    # Directory searching
+    fd
+    fzf
+
+    # File searching
+    gnugrep
+    ripgrep
+
+    # Network tools
+    aria2
+    bind # for dig
+    netcat
+    nmap
     traceroute
-    qemu
-    xsv
+    whois
 
     # Email
     #neomutt
 
     # Web
     #w3m
+    #nyxt
 
     # Extra Shells
     elvish
@@ -66,17 +86,12 @@
 
     # Hacking
     aircrack-ng
-    bind # for dig
     exiftool
     foremost
-    netcat
-    nmap
-    openssl
     python38Packages.binwalk-full
     #pwndbg
     #pwntools
     radare2
-    whois
 
     # Music
     #mpd
@@ -86,6 +101,7 @@
     ansible
     cloc
     github-cli
+    hyperfine
     nixfmt
   ];
 }
