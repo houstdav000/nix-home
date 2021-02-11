@@ -10,5 +10,5 @@
   ];
 
   xdg.configFile."git/config".source = ../dotfiles/.config/git/config;
-  xdg.configFile."git/ignore".source = ../dotfiles/.config/git/config;
+  xdg.configFile."git/ignore".source = ../dotfiles/.config/git/ignore;
 }
