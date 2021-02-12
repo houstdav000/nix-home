@@ -22,4 +22,11 @@
 
   # Theme files
   xdg.configFile."sway/themes/matcha-green".source = ../../dotfiles/.config/sway/themes/matcha-green;
+
+  # Waybar config
+  xdg.configFile."waybar/config".source = ../../dotfiles/.config/waybar/config;
+  xdg.configFile."waybar/style.css".source = ../../dotfiles/.config/waybar/style.css;
+
+  # swaylock config
+  xdg.configFile."swaylock/config".source = ../../dotfiles/.config/swaylock/config;
 }
