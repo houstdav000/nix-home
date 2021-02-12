@@ -40,8 +40,10 @@
     exa
     hexyl
     libtool
+    man-db
     openssl
     sshfs
+    sshuttle
 
     # File tools
     file
@@ -102,6 +104,7 @@
     cloc
     github-cli
     hyperfine
+    jq
     nixfmt
   ];
 }
