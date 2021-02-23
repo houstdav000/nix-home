@@ -7,5 +7,8 @@
     htop
   ];
 
-  xdg.configFile."htop/htoprc".source = ../dotfiles/.config/htop/htoprc;
+  xdg.configFile."htop" = {
+    source = ../dotfiles/.config/htop;
+    recursive = true;
+  };
 }

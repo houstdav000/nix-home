@@ -13,7 +13,8 @@
   home.file.".bashrc".source = ../dotfiles/.bashrc;
 
   # Copy .config/bash
-  xdg.configFile."bash/config.bash".source = ../dotfiles/.config/bash/config.bash;
-  xdg.configFile."bash/alias.bash".source = ../dotfiles/.config/bash/alias.bash;
-  xdg.configFile."bash/functions.bash".source = ../dotfiles/.config/bash/functions.bash;
+  xdg.configFile."bash" = {
+    source = ../dotfiles/.config/bash;
+    recursive = true;
+  };
 }

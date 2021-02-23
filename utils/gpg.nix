@@ -12,6 +12,11 @@
     enableSshSupport = true;
   };
 
-  home.file.".gnupg/gpg.conf".source = ../dotfiles/.gnupg/gpg.conf;
-  home.file.".gnupg/gpg-agent.conf".source = ../dotfiles/.gnupg/gpg-agent.conf;
+  home.file.".gnupg" = {
+    source = ../dotfiles/.gnupg;
+    recursive = true;
+    onChange = ''
+      chmod 700 $HOME/.gnupg
+    '';
+  };
 }

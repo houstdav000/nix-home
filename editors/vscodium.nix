@@ -23,5 +23,8 @@
     ];
   };
 
-  xdg.configFile."VSCodium/User/settings.json".source = ../dotfiles/.config/VSCodium/User/settings.json;
+  xdg.configFile."VSCodium" = {
+    source = ../dotfiles/.config/VSCodium;
+    recursive = true;
+  };
 }

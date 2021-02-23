@@ -8,5 +8,8 @@
     bat
   ];
 
-  xdg.configFile."bat/config".source = ../dotfiles/.config/bat/config;
+  xdg.configFile."bat" = {
+    source = ../dotfiles/.config/bat;
+    recursive = true;
+  };
 }

@@ -3,5 +3,8 @@
     termite
   ];
 
-  xdg.configFile."termite/config".source = ../../dotfiles/.config/termite/config;
+  xdg.configFile."termite" = {
+    source = ../../dotfiles/.config/termite;
+    recursive = true;
+  };
 }

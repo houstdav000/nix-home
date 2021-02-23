@@ -5,5 +5,8 @@
 { config, pkgs, lib, ... }: {
   programs.alacritty.enable = true;
 
-  xdg.configFile."alacritty/alacritty.yml".source = ../../dotfiles/.config/alacritty/alacritty.yml;
+  xdg.configFile."alacritty" = {
+    source = ../../dotfiles/.config/alacritty;
+    recursive = true;
+  };
 }

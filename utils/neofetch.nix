@@ -7,5 +7,8 @@
     neofetch
   ];
 
-  xdg.configFile."neofetch/config.conf".source = ../dotfiles/.config/neofetch/config.conf;
+  xdg.configFile."neofetch" = {
+    source = ../dotfiles/.config/neofetch;
+    recursive = true;
+  };
 }

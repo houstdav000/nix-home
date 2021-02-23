@@ -7,5 +7,8 @@
     neovim
   ];
 
-  xdg.configFile."nvim/init.vim".source = ../dotfiles/.config/nvim/init.vim;
+  xdg.configFile."nvim" = {
+    source = ../dotfiles/.config/nvim;
+    recursive = true;
+  };
 }
