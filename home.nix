@@ -84,7 +84,6 @@
     mosh
     #powershell
     xonsh
-    zsh
 
     # Hacking
     aircrack-ng
