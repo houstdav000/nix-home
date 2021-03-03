@@ -83,6 +83,7 @@
     ansible
     cloc
     github-cli
+    jq
     nixfmt
   ];
 }
