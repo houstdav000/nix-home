@@ -1,6 +1,5 @@
 { config, pkgs, ... }: {
   imports = [
-    ../editors/vscodium
     ./terminals/alacritty.nix
   ];
 
@@ -84,7 +83,4 @@
     vistafonts
   ];
 
-  home.sessionVariable = {
-    TERM = "alacritty";
-  };
 }

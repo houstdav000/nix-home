@@ -25,7 +25,7 @@
     ./utils/tmux.nix
 
     # Desktop Utilities
-    #./desktop/desktop.nix
+    ./desktop/desktop.nix
   ];
 
   # Enable home-manager
